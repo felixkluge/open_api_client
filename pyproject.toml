@@ -1,0 +1,23 @@
+[project]
+name = "openai-api-client"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Felix"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "openai (>=1.59.7,<2.0.0)",
+    "black (>=24.10.0,<25.0.0)",
+    "pytest (>=6.2.4,<7.0.0)",
+    "pytest-mock (>=3.6.1,<4.0.0)"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+run-openai = "openai_api_client.main:main"
+test = "pytest:main"
