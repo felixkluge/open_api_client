@@ -1,6 +1,6 @@
 # OpenAI API Project
 
-This project interacts with the OpenAI API to list available models and create a chat completion.
+This project interacts with the OpenAI API to create a chat completion.
 
 ## Installation
 
